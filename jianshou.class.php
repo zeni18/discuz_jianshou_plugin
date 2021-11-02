@@ -35,8 +35,8 @@ class plugin_jianshou_forum extends plugin_jianshou
     {
         $css = '<link rel="stylesheet" type="text/css" href="//yunshou.snscz.com/lib/layer/skin/layer.css" />';
         $css .= '<style type="text/css">';
-        $css .= '#e_snspay{background:url(/source/plugin/snsiopay/img/snspay-icon.png) 0 -1px no-repeat;}';
-        $css .= '.b1r #e_snspay{background:url(/source/plugin/snsiopay/img/snspay-icon.png) 0 -1px no-repeat;}';
+        $css .= '#e_snspay{background:url(/source/plugin/jianshou_online/img/snspay-icon.png) 0 -1px no-repeat;}';
+        $css .= '.b1r #e_snspay{background:url(/source/plugin/jianshou_online/img/snspay-icon.png) 0 -1px no-repeat;}';
         $css .= '.b2r #e_snspay{background-position: -7px -47px;}';
         $css .= '</style>';
 
