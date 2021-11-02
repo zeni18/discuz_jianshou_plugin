@@ -16,7 +16,7 @@ class plugin_jianshou_forum extends plugin_jianshou
     public function post_editorctrl_left()
     {
         $html = $this->getCss();
-        $html .= '<a id="add_radishpay" href="javascript:void(0);">出售</a>';
+        $html .= '<a class="add_radishpay" href="javascript:void(0);">出售</a>';
 
         return $html;
     }
@@ -36,9 +36,9 @@ class plugin_jianshou_forum extends plugin_jianshou
     {
         $css = '<link rel="stylesheet" type="text/css" href="https://jianshou.online/layer/layer.css" />';
         $css .= '<style type="text/css">';
-        $css .= '#add_radishpay{background:url(/source/plugin/jianshou_online/img/radishpay-icon.png) 0 -1px no-repeat;}';
-        $css .= '.b1r #add_radishpay{background:url(/source/plugin/jianshou_online/img/radishpay-icon.png) 0 -1px no-repeat;}';
-        $css .= '.b2r #add_radishpay{background-position: -7px -47px;}';
+        $css .= '.add_radishpay{background:url(/source/plugin/jianshou_online/img/radishpay-icon.png) 0 -1px no-repeat;}';
+        $css .= '.b1r .add_radishpay{background:url(/source/plugin/jianshou_online/img/radishpay-icon.png) 0 -1px no-repeat;}';
+        $css .= '.b2r .add_radishpay{background-position: -7px -47px;}';
         $css .= '</style>';
 
         return $css;
