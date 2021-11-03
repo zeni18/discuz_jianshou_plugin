@@ -1,7 +1,7 @@
 <?php
 
 
-class mobileplugin_snsiopay
+class mobileplugin_jianshou
 {
     public function discuzcode($param)
     {
@@ -12,7 +12,7 @@ class mobileplugin_snsiopay
 }
 
 
-class mobileplugin_snsiopay_forum extends mobileplugin_snsiopay
+class mobileplugin_jianshou_forum extends mobileplugin_jianshou
 {
     public function viewthread_bottom_mobile()
     {
