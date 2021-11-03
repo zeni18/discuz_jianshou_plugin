@@ -6,7 +6,7 @@ class plugin_jianshou
     {
         global $_G;
 
-        $_G['discuzcodemessage'] = preg_replace('/\[raishpay=(\w+)\](.*?)\[\/raishpay\]/is', '<div class="radish-content" data-hashid="$1">###简售付费内容，发布后可见效果###</div>', $_G['discuzcodemessage']);
+        $_G['discuzcodemessage'] = preg_replace('/\[radishpay=(\w+)\](.*?)\[\/radishpay\]/is', '<div class="radish-content" data-hashid="$1">###简售付费内容，发布后可见效果###</div>', $_G['discuzcodemessage']);
     }
 }
 
@@ -16,7 +16,7 @@ class plugin_jianshou_forum extends plugin_jianshou
     public function post_editorctrl_left()
     {
         $html = $this->getCss();
-        $html .= '<a id="add_radishpay" href="javascript:void(0);">出售</a>';
+        $html .= '<a id="add_radishpay" href="javascript:void(0);">简售</a>';
 
         return $html;
     }
